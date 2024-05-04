@@ -76,10 +76,17 @@ If you’d like extra practice, try writing this project without the *= operator
 // I am going to change myAge to 50 years old.
 const myAge = 50;
 let earlyYears = 2;
+
 earlyYears *= 10.5;
+
 let laterYears = myAge - 2;
+
 laterYears *= 4;
+
 const myAgeInDogYears = earlyYears + laterYears;
+
 const myName = 'VENELOUIS'.toLowerCase();
-console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+
+console.log(`My name is ${myName}. 
+I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
 // My name is venelouis. I am 50 years old in human years which is 209 years old in dog years.
