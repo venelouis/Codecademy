@@ -41,13 +41,21 @@ The code in the else statement above will execute only if both comparisons evalu
 
 The ! not operator reverses, or negates, the value of a boolean: */
 
-let excited = true;
-console.log(!excited); // Prints false
+// main.js
 
-let sleepy = false;
-console.log(!sleepy); // Prints true
+let mood = 'sleepy'; // Example mood value
+let tirednessLevel = 6; // Example tiredness level
 
-/* Essentially, the ! operator will either take a true value and pass back false, 
-or it will take a false value and pass back true.
+// Original if...else statement with && (and) operator
+if (mood === 'sleepy' && tirednessLevel > 8) { 
+  console.log('time to sleep');
+} else {
+  console.log('not bed time yet');
+}
 
-Logical operators are often used in conditional statements to add another layer of logic to our code. */
+// Using || (or) operator with negated statement (!)
+if (!(mood !== 'sleepy' || tirednessLevel <= 8)) { // Negated statement with || operator 
+  console.log('time to sleep');
+} else {
+  console.log('not bed time yet');
+}
