@@ -49,7 +49,6 @@ if (favoritePhrase === 'Love That!') {
   console.log("I don't love that!");
 }
 
-
 //Refatored:
 let isLocked = false;
 
@@ -64,7 +63,6 @@ let favoritePhrase = 'Love That!';
 favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
 
 // After prettity:
-
 let isLocked = false;
 
 isLocked
