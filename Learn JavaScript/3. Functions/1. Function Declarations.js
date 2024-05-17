@@ -33,8 +33,9 @@ Since hoisting isn’t considered good practice, we simply want you to be aware 
 If you want to read more about hoisting, check out MDN documentation on hoisting. */
 function getReminder(){
     console.log('Water the plants.')
-  }
-  function greetInSpanish(){
+}
+
+function greetInSpanish(){
     console.log('Buenas tardes.')
-  }
-getReminder();
+}
+getReminder(); greetInSpanish();
