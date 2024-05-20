@@ -29,9 +29,9 @@ sayThanks('Cole');
 /* Default Parameters
 One of the features added in ES6 is the ability to use default parameters. 
 Default parameters allow parameters to have a predetermined value 
-in case there is no argument passed into the function or if the argument is undefined when called. */
+in case there is no argument passed into the function or if the argument is undefined when called.
 
-Take a look at the code snippet below that uses a default parameter:
+Take a look at the code snippet below that uses a default parameter: */
 
 function greeting (name = 'stranger') {
   console.log(`Hello, ${name}!`)
